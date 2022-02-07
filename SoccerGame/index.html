@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Soccer Game</title>
+
+    <script src="Matter.js/matter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+  
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-database.js"></script>
+    <script>    
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyBwRJsJQB8gmU48AJViVaHj1pNgMKWGcOE",
+      authDomain: "soccergame-fbc15.firebaseapp.com",
+      databaseURL: "https://soccergame-fbc15-default-rtdb.firebaseio.com",
+      projectId: "soccergame-fbc15",
+      storageBucket: "soccergame-fbc15.appspot.com",
+      messagingSenderId: "31072416501",
+      appId: "1:31072416501:web:0aaf24caa71a0d554e4bbc"
+    };
+    
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+    <script src="js/game.js"></script>
+    <script src="ball.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/form.js"></script>
+  </body>
+</html>
